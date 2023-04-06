@@ -1,0 +1,92 @@
+body {
+    overflow: hidden;
+    font-size: 1em;
+  }
+
+iframe {
+    pointer-events: none;
+    position: absolute;
+    scale: 0.7;
+    left: 37%;
+    top: 10%;
+    z-index: 999;
+}
+
+.login {
+    position: absolute;
+    padding: 50px 30px;
+    bottom: 15%;
+    left: 40%;
+    background:rgb(255, 255, 255);
+	backdrop-filter: blur(15px);
+	border: 1px solid #fff;
+	border-radius: 20px;
+	width: 15%;
+	flex-direction: column;
+	box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+    text-align: center;
+    z-index: 9;
+}
+
+
+
+.inputBox input{
+    border: none;
+    outline: none;
+    background:rgba(117, 173, 237, 0.575);
+    width: 50%;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.submitBox input {
+    border: none;
+    width: 85%;
+    background-color: #e97644;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.submitBox input:hover {
+    background-color: #af5b37;
+
+}
+
+.rest {
+    width: 90%;
+    margin: 5% auto;
+    font-size: 0.8em;
+}
+.remember, #remember{
+    float: left;
+}
+
+.forget {
+    margin-left: 10%;
+}
+
+.signIn {
+    margin-top: 10%;
+}
+
+.fb, .twitter {
+    background-color: rgba(117, 173, 237, 0.575);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 30px;
+    width: 47%;
+    font-weight: bold;
+}
+.fb {
+    float: left;
+}
+.twitter {
+    margin-left: 5%;
+}
+
+.fb:hover, .twitter:hover {
+    background-color: #e97644;
+
+}
